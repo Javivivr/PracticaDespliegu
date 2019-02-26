@@ -27,4 +27,4 @@ Esto es una prueba para despliegue de aplicaciones web, en la que habrá que inc
 ## Mapa de Navegación
 
 
-![mapa](https://user-images.githubusercontent.com/47251637/53355719-e8948280-3929-11e9-8deb-d76b7c512a2d.PNG)
+![mapa](https://user-images.githubusercontent.com/47251637/53413232-c18e8d00-39cb-11e9-86f4-7e57bc14e8d9.PNG)
