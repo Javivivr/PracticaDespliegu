@@ -65,4 +65,34 @@ Para conseguir la ejecución de código remoto y el soporte de red, los programa
 Architecture), Internet Communications Engine u OSGi, respectivamente.<br/><br/>
 </p>
 
+<!-- inio comentarios -->
+<hr>
+<h1>Comentarios</h1>
+<hr/>
+<div>
+
+<h4>Añade un comentario: </h4><br/>
+<form action="java.php" method="POST" enctype="multipart/form-data">
+	<input type="text" name="nombre" required placeholder="Nombre"><br/>	
+  <input type="hidden" name="fecha" value="25/02/2019">
+  <input type="hidden" name="lenguaje" value="java.php">
+    <textarea name="comentario" rows="4" cols="50" placeholder="Escribe aquí tu comentario"></textarea><br/>
+    <input type="submit" value="Enviar" />
+    
+</form>
+</div>
+<div>
+<h4>Estos usuario ya han comentado:</h4>
+
+<form action="java.php" method="POST" enctype="multipart/form-data">
+  <input type="hidden" name="lenguaje" value="java.php">   
+  <input type="hidden" name="fecha" value="no">
+  <input type="submit" value="Ver comentarios" /> 
+</form>
+</div>
+
+<?php include 'comentarios.php'; ?> 
+<!-- fin comentarios -->
+
+
 <?php include 'pie.inc'; ?>
